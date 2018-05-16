@@ -1,5 +1,5 @@
 {
-  "name": "qimengbao",
+  "name": "componentStore",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -32,11 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuanqiyang/qimengbao.git"
+    "url": "git+https://github.com/xuanqiyang/componentStore.git"
   },
   "bugs": {
-    "url": "https://github.com/xuanqiyang/qimengbao/issues"
+    "url": "https://github.com/xuanqiyang/componentStore/issues"
   },
-  "homepage": "https://github.com/xuanqiyang/qimengbao#readme",
-  "description": ""
+  "homepage": "https://github.com/xuanqiyang/componentStore#readme",
+  "description": "个人组件库"
 }
