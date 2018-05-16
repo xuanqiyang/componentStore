@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>计数器</title>
+    <style>
+    .counter {
+        width: 150px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .counter>* {
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-style: normal;
+    }
+
+    .no-drop {
+        color: red;
+    }
+
+
+
+    </style>
+</head>
+
+<body>
+    <h1>计数器</h1>
+    <span class="counter">
+        <i class="decrease">-</i>
+        <input type="text" class="count" value="1">
+        <i class="increase">+</i>
+    </span>
+    <span class="counter">
+        <i class="decrease">-</i>
+        <input type="text" class="count" value="2">
+        <i class="increase">+</i>
+    </span>
+    <span class="counter">
+        <i class="decrease">-</i>
+        <input type="text" class="count" value="2">
+        <i class="increase">+</i>
+    </span>
+    <span class="counter">
+        <i class="decrease">-</i>
+        <input type="text" class="count" value="4">
+        <i class="increase">+</i>
+    </span>
+    <span class="counter">
+        <i class="decrease">-</i>
+        <input type="text" class="count" value="5">
+        <i class="increase">+</i>
+    </span>
+    <script type="text/javascript" src="js/counter.min.js"></script>
+    <script type="text/javascript">
+        document.querySelectorAll('.counter').counter();
+    </script>
+</body>
+
+</html>

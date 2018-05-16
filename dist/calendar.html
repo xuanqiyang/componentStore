@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    table {
+        border: 1px solid #eee;
+    }
+    .weekdays {
+        overflow: hidden;
+        width: 400px;
+        height: 30px;
+    }
+    .weekdays li {
+        float: left;
+        text-align: center;
+        list-style: none;
+        width: 50px;
+        border: 1px solid #eee;
+    }
+    .monthdays {
+        overflow: hidden;
+        width: 400px;
+    }
+    .monthdays li {
+        float: left;
+        list-style: none;
+        width: 50px;
+        text-align: center;
+        height: 50px;
+        border: 1px solid #eee;
+    }
+    .head-calendar{
+                width: 400px;
+        height: 20px;
+        text-align: center;
+    }
+    .head-calendar #date{
+        margin: 0 10px;
+    }
+    .head-calendar span{
+        cursor: pointer;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="calendar">
+    </div>
+    <script src="./js/calendar.min.js"></script>
+    <script type="text/javascript">
+    console.log(new Calendar(document.querySelector('#calendar'), 2017, 3, 4))
+    </script>
+</body>
+
+</html>
